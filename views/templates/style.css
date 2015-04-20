@@ -1,0 +1,365 @@
+/* 
+Document   : style
+Created on : May 15, 2013, 2:48:04 PM
+Author     : bembry
+Description: Stylesheet for Friday Reports Website.
+*/
+
+body {
+    padding-top: 0px;
+    background: url('http://www.thornview.com/friday/media/texture.png') repeat; 
+}
+
+h2 {
+    font-family: arial, helvetica, sans-serif;
+    color: #1D5D6F; 
+    font-weight: bold; 
+}
+
+.logo {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0; 
+}
+.container {
+    background: #ffffff;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div.menu {
+    background-color:#67655b;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    height: 20px; 
+}
+
+a.menu {
+    display: block;
+    width: 100px; 
+    color:#ffffff;
+    text-decoration: none;
+}
+
+a.menu_selected{
+    display: block;
+    width: 100px; 
+    text-decoration: none; 
+    color: #017935;
+    background-color: #e8e2c5;
+    height: 20px; 
+    padding-top: 5px; 
+    margin: -5px; 
+    padding-left: 5px; 
+}
+a.menu:hover {
+    color: #fff200;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.menu {
+    float: left;
+    padding-right: 10px; 
+    padding-left: 5px; 
+}
+
+
+
+ div.sub_menu {
+    background-color: #e8e2c5;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    height: 20px; 
+}
+
+a.sub_menu {
+    display: block;
+    width: 100px; 
+    color:#67655b;
+    text-decoration: none;
+}
+
+
+a.sub_menu:hover {
+    color: #4E9C65;
+}
+
+ul.sub_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.sub_menu {
+    float: left;
+    padding-right: 10px; 
+    padding-left: 5px; 
+}
+
+
+
+.content {
+    background: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 250px; 
+}
+
+.highlighted {
+    color: #fff200;
+}
+
+#login_form {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    width: 250px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+.user_info{
+    float: right;
+}
+a.user_link{
+    color: #ffffff;
+    text-decoration:none;
+    font-family: arial, helvetica, sans-serif; 
+}
+
+a.user_link:hover {
+    color: #017935;
+}
+
+th {
+    text-align: center;
+    background-color: #e8e2c5;
+    vertical-align: text-top;
+    font-weight: bold;
+    font-family: helvetica, arial, sans-serif;
+    font-size: small;
+    padding: 10px;
+
+}
+
+td.form_label {
+    text-align: right;
+    background-color: #e8e2c5;
+    vertical-align: text-top;
+    font-weight: bold;
+    font-family: helvetica, arial, sans-serif;
+    font-size: small;
+    padding: 10px;
+
+}
+
+td.list_view{
+    border-bottom: #efefef solid 1px;
+    padding: 8px; 
+    vertical-align: text-top;
+
+}
+
+td.odd {
+    background-color:#f6f6f6;
+}
+
+td.even {
+    background-color: #ffffff;
+}
+
+tr.warning {
+    background-color: #ed7878;
+}
+
+tr.caution {
+    background-color: #ffe690;
+}
+
+tr.clear {
+    background-color: #ffffff;
+}
+
+
+
+.date {
+    font-size: small;
+    color: #67655b;
+    font-style: italic;
+    font-family: helvetica, arial, sans-serif;
+}
+
+a.delete_hover {
+    display:block;
+    width:16px;
+    height:16px;
+    background-image:url('http://www.thornview.com/friday/media/delete_icon_hover.png');
+    background-position:0px 0px;
+}
+
+a.delete_hover:hover {
+    background-position:0px -16px;
+}
+
+  a.edit_hover {
+    display:block;
+    width:16px;
+    height:16px;
+    background-image:url('http://www.thornview.com/friday/media/edit_icon_hover.png');
+    background-position:0px 0px;
+}
+
+a.edit_hover:hover {
+    background-position:0px -16px;
+}
+
+div.side_menu {
+    display: block;
+    float: right;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    width: 250px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-align: center; 
+    padding: 10px;  
+}
+
+ div.callout {
+    display: block;
+    float: right;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    width: 250px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-align: center; 
+    padding: 10px;
+    text-align: left;
+    background: #ffffff;
+}
+
+footer {
+    font-style: italic;
+    font-size: small;
+    font-family: helvetica, sans-serif;
+    color: #999999;
+    background-color: #e8e2c5;
+    text-align: Center;
+    padding: 3px;
+}
+
+a.footer 
+{
+    color:#999999;
+}
+
+li.done
+{
+    text-decoration: line-through;
+    color: #dd9999;
+}
+
+.calendar_month 
+{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    color: #1d5d6f;
+}
+
+.calendar_title
+{
+    font-family:  helvetica, arial, sans-serif;
+    width: 14%;
+    background-color: #e8e2c5;
+    font-weight: bold;
+    color: #67655b;
+}
+
+.calendar_cell 
+{
+    background-color: #ffffff;
+    height: 125px; 
+}
+
+.calendar_day, .calendar_day_highlight 
+{
+    font-weight: bold;
+    color: #67655b;
+    background-color: #efecd9;
+    min-width: 100px;
+    text-align: left; 
+    padding-left: 3px;
+    font-family: helvetica, arial, sans-serif;
+
+}
+
+.calendar_day_highlight
+{
+    background-color: #3B9359;
+    color: #efecd9;
+}
+
+.name_tag
+{
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+    color: #67655b;
+}
+
+.survey_question {
+    text-align: left;
+    background-color: #f6f6f6;
+    vertical-align: text-top;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-top: 1px solid #cccccc; 
+    font-family: arial, helvetica, sans-serif;
+}
+
+.survey_answer {
+    font-style: italic;
+}
+
+.leave_text {
+    font-weight: bold;
+    color: #990000;
+    letter-spacing: 1px; 
+}
+
+.signature {
+    font-style: italic;
+    color: #999999;
+}
